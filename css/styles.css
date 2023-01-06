@@ -1,21 +1,32 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
+html, body {
+    height: 100%;
+}
+
 body {
-    height: 100vh
-    margin: 0 auto;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.container {
-    display: flex;
     flex-direction: column;
+    background-color: #2e3c49;
 }
-.btn, .reset {
-    margin: 0 auto;
+h1 {
+    color: #f3f4f6;
+}
+.form-card {
+    max-width: 300px;
+    margin: 10px auto 0;
+}
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     width: 100%;
+    margin: 8px 0;
+    text-indent: 1em;
+    padding: 10px 8px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
 }
